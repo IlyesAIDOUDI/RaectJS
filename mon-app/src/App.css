@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("https://images8.alphacoders.com/115/thumb-1920-1153319.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,4 +36,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.div1 {
+  background-color: black;
+}
+
+.t1 {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: #1c87c9;
+  color: #ffffff;
+}
+
+th {
+  text-align: center;
+  height: 50px;
+}
+
+tbody tr:nth-child(odd) {
+  background: #ce0c0c;
+}
+
+tbody tr:nth-child(even) {
+  background: #382d2d;
+}
+
+p {
+  color: #3f3f3f;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.button {
+  background-color: #293a49;
+  border-radius: 45px;
+  border: none;
+  color: white;
+  padding: 18px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
